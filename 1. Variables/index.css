@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-
-$main-color: #c8deff;
-$bg-image-center: no-repeat center/cover;
-$main-font: "Roboto", sans-serif;
-
-
 body {
-  background: linear-gradient(#a5aae9cc, #8c9af6);
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
 }
 
 .container {
@@ -14,11 +8,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: $main-font;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-  background: $main-color;
+  background: #c8deff;
   max-width: 280px;
   padding: 20px;
   line-height: 24px;
@@ -37,14 +31,17 @@ body {
 }
 
 .img-one {
-  background: url("Images/one.jpg") $bg-image-center;
+  background: url("Images/one.jpg") no-repeat center/cover;
 }
+
 .img-two {
-  background: url("Images/two.jpg") $bg-image-center;
+  background: url("Images/two.jpg") no-repeat center/cover;
 }
+
 .img-three {
-  background: url("Images/three.jpg") $bg-image-center;
+  background: url("Images/three.jpg") no-repeat center/cover;
 }
+
 .img-four {
-  background: url("Images/four.jpg") $bg-image-center;
-}
+  background: url("Images/four.jpg") no-repeat center/cover;
+}/*# sourceMappingURL=index.css.map */
